@@ -89,8 +89,7 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
 4. Click "Add X files to main", where X is the number of added files
 5. Click "Push origin"
 
-![Image](screenshots/add_commit.png)
-![Image](screenshots/push.png)
+![Image](screenshots/add_commit_push.png)
 
 # Best Practices
 
