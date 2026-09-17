@@ -94,9 +94,10 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
 
 # Best Practices
 
-- Commit often, at least daily
-- Do not make changes on GitHub directly
+- Commit often
 - Have a README file with documentation
+- Do not make changes directly on the GitHub website
+- Don't make change at the same time as someone else until a branching strategy is outlined
 
 # Large-File Storage
 
