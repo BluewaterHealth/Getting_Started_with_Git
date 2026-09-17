@@ -97,7 +97,7 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
 - Commit often
 - Have a README file with documentation
 - Do not make changes directly on the GitHub website
-- Don't make change at the same time as someone else until a branching strategy is outlined
+- Avoid changing files at the same time as someone else until a branching strategy is outlined
 
 # Large-File Storage
 
