@@ -20,15 +20,13 @@ Download the latest version of **Git for Windows** from the link below and follo
 
 ### Personal Account
 
-Everyone on the team using Git needs their own GitHub account using their work email for trackability. Personal accounts should only be used to access and make changes to team Git repositories. Personal accounts should not have Git repositories themselves. Sign up for a free GitHub account using the link below.
+Everyone on the team using Git needs their own GitHub account using their work email for traceability. Personal accounts should only be used to access and make changes to team Git repositories. Personal accounts should not have Git repositories themselves. Sign up for a free GitHub account using the link below.
 
 **Link:** https://github.com/signup
 
 ### Team Account
 
 **Username:** BWH-DecisionSupport
-
-**Password:** Ask Decision Support manager
 
 This is a GitHub account for the Bluewater Health Decision Support Team, created using the team email (DecisionSupportTeam@bluewaterhealth.ca). This account should only be used to store team Git repositories. File changes should only be done under personal accounts, not the team account.
 
@@ -48,7 +46,7 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
 
 # Creating a Git Repository
 
-1. Login to GitHub using the team account
+1. Log in to GitHub using the team account
 2. Navigate to existing repositories:
     1. Click the small Bluewater Health logo in the upper right corner
     2. Click "Repositories"
@@ -63,9 +61,9 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
     8. Click "Create repository"
 4. Give access to personal accounts:
     1. Click "Settings"
-    2. Click "Collaborators" and provide the team account password
-    3. Click "Add People", search for and add a personal account, repeat for all accounts that need access
-    4. For each added account, there is an email invitation that must be accepted while logged into GitHub with the personal account
+    2. Click "Collaborators" and reauthenticate if prompted
+    3. Click "Add people", search for and add a personal account, repeat for all accounts that need access
+    4. Each added account must accept an email invitation while logged in to that personal account
 
 ![Image](screenshots/go_to_add_repository.png)
 ![Image](screenshots/add_repository.png)
@@ -77,7 +75,7 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
 2. Click "File"
 3. Click "Clone Repository..."
 4. Select the Git repository to clone, your personal GitHub account must be included as a collaborator on the repository for it to appear (refer to Creating a Git Repository, Step 4)
-5. Choose a path to save repository to, shared drives are supported
+5. Choose a path to save the repository to, shared drives are supported
 6. Click "Clone"
 
 ![Image](screenshots/go_to_clone_repository.png)
@@ -86,7 +84,7 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
 # "Saving" Changes in a Git Repository
 
 1. For "Current repository" select the desired Git repository
-2. Add file changes you want to be tracked by Git
+2. Add the file changes you want to be tracked by Git
 3. For "Summary" add a message describing the commit
 4. Click "Add X files to main", where X is the number of added files
 5. Click "Push origin"
