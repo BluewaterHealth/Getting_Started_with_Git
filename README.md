@@ -27,6 +27,7 @@ Everyone on the team using Git needs their own GitHub account using their work e
 ### Team Account
 
 **Username:** BWH-DecisionSupport
+
 **Password:** Ask Decision Support manager
 
 This is a GitHub account for the Bluewater Health Decision Support Team, created using the team email (DecisionSupportTeam@bluewaterhealth.ca). This account should only be used to store team Git repositories. File changes should only be done under personal accounts, not the team account.
@@ -42,6 +43,7 @@ If the team ever wants to do code reviews with code owners (required reviewers),
 GitHub Desktop is required to use Git for people not familiar with Git CLI. Installation and usage of GitHub Desktop is outlined in the links below. Be sure to sign in using your personal GitHub account, not the team account.
 
 **Installation:** https://github.com/apps/desktop
+
 **Video Tutorial:** https://www.youtube.com/watch?v=AYJQi6TyPyU
 
 # Creating a Git Repository
