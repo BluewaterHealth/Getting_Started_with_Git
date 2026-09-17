@@ -83,6 +83,15 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
 
 # "Saving" Changes in a Git Repository
 
+1. For "Current repository" select the desired Git repository
+2. Add file changes you want to be tracked by Git
+3. For "Summary" add a message describing the commit
+4. Click "Add X files to main", where X is the number of added files
+5. Click "Push origin"
+
+![Image](screenshots/add_commit.png)
+![Image](screenshots/push.png)
+
 # Best Practices
 
 - Commit often, at least daily
