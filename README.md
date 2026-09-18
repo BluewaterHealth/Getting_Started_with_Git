@@ -12,7 +12,7 @@ Follow the steps outlined in the following sections:
 
 # Installing Git
 
-Download the latest version of **Git for Windows** from the link below and follow the installation instructions. When installing, default parameters can be used, however, when choosing the default editor used by Git you may want to change the selection from Vim to a text editor you are familiar with.
+Download the latest version of **Git for Windows** from the link below and follow the installation instructions. When installing, default parameters can be used.
  
 **Link:** https://git-scm.com/install/windows
 
@@ -26,7 +26,7 @@ The Bluewater Health GitHub organization is used to store and manage Bluewater H
 
 ### Personal Account
 
-Everyone on the team using Git needs their own GitHub account using their work email for traceability. Personal accounts should only be used to access and make changes to team Git repositories. Personal accounts should not have Git repositories themselves. Sign up for a free GitHub account using the link below. Once created, send an owner your account username so you can be given appropriate roles and permissions.
+Everyone using Git needs their own GitHub account using their work email for traceability. Personal accounts should only be used to access and make changes to team Git repositories. Personal accounts should not have Git repositories themselves. Sign up for a free GitHub account using the link below. Once created, send an owner your account username so you can be given appropriate roles and permissions.
 
 **Link:** https://github.com/signup
 
@@ -38,15 +38,28 @@ If the team ever wants finer control over roles and permissions, among other thi
 
 # GitHub Desktop
 
-GitHub Desktop is required to use Git for people not familiar with Git CLI. Installation and usage of GitHub Desktop is outlined in the links below. Be sure to sign in using your personal GitHub account, not the team account.
+GitHub Desktop is required to use Git for people not familiar with Git CLI. Installation and usage of GitHub Desktop is outlined in the links below.
 
 **Installation:** https://github.com/apps/desktop
 
 **Video Tutorial:** https://www.youtube.com/watch?v=AYJQi6TyPyU
 
+# Roles and Permissions
+
+Permissions control what organization members can do with Git. Roles are a collection of permissions that can be assigned to individual team members, or an entire team. Below is a summary of the primary Git roles:
+
+- **Read:** For viewing Git repositories 
+    - Can pull files locally, but not push
+- **Write:** For contributing to a Git repository
+    - Can do everything "Read" can do plus push changes
+- **Admin:** For full control of a Git repository
+    - Can do everything "Write" can do plus administrator actions for that repository
+- **Owner:** For full control of an organization
+    - Can do everything "Admin" can do for all Git repositories under an organization plus administrator actions for that organization
+
 # Creating a Git Repository
 
-1. Log in to GitHub using your account
+1. Log in to GitHub
 2. Navigate to existing repositories: https://github.com/orgs/BluewaterHealth/repositories
 3. Create a new repository:
     1. Click "New repository"
@@ -60,11 +73,8 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
 4. Give access to collaborators, if applicable:
     1. Click "Settings"
     2. Click "Collaborators and teams"
-    3. Click "Add people" or "Add teams" to add a person or team respectively, add the appropriate role:
-        1. Read - For viewing, can pull files locally (default)
-        1. Write - For contributing, can do everything "Read" can do and push changes
-        1. Admin - For full control, can do everything "Write" can do and destructive actions
-    5. Each added account must accept an email invitation while logged in
+    3. Click "Add people" or "Add teams" to add a person or team respectively, add the appropriate role
+    5. Each added account must accept an email invitation
 
 ![Image](screenshots/go_to_add_repository.png)
 ![Image](screenshots/add_repository.png)
@@ -75,7 +85,7 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
 1. Open GitHub Desktop
 2. Click "File"
 3. Click "Clone Repository..."
-4. Select the Git repository to clone, you can only see repositories you have permissions for (refer to Creating a Git Repository, Step 4)
+4. Select the Git repository to clone, you have read permissions for it to display
 5. Choose a path to save the repository to, shared drives are supported
 6. Click "Clone"
 
