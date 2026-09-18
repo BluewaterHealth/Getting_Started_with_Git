@@ -26,13 +26,13 @@ The Bluewater Health GitHub organization is used to store and manage Bluewater H
 
 ### Personal Account
 
-Everyone using Git needs their own GitHub account using their work email for traceability. Personal accounts should only be used to access and make changes to team Git repositories. Personal accounts should not have Git repositories themselves. Sign up for a free GitHub account using the link below. Once created, send an owner your account username so you can be given appropriate roles and permissions.
+Everyone using Git needs their own GitHub account using their work email for traceability. Personal accounts should only be used to access and make changes to Git repositories under by Bluewater Health. Personal accounts should not have Git repositories themselves. Sign up for a free GitHub account using the link below. Once created, send an owner your username so you can be given appropriate roles and permissions.
 
 **Link:** https://github.com/signup
 
 ### Upgrading GitHub
 
-If the team ever wants finer control over roles and permissions, among other things, we can upgrade to GitHub Team ($4 per user/month) or GitHub Enterprise ($21 per user/month). More info is available via the link below.
+If Bluewater Health ever wants finer control over roles and permissions, among other things, we can upgrade to GitHub Team ($4 per user/month) or GitHub Enterprise ($21 per user/month). More info is available via the link below.
 
 **Link:** https://github.com/pricing
 
@@ -107,6 +107,7 @@ Permissions control what organization members can do with Git. Roles are a colle
 - Commit often
 - Have a README file with documentation
 - Do not make changes directly on the GitHub website
+- Do not give someone more permissions than they need
 - Avoid changing files at the same time as someone else until a branching strategy is outlined
 
 # Large-File Storage
