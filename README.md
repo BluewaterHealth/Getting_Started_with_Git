@@ -112,6 +112,6 @@ Permissions control what organization members can do with Git. Roles are a colle
 
 # Large-File Storage
 
-GitHub limits the size of files allowed in repositories to 100 MB by default. To track files up to 2 GB, you can use Git Large File Storage, outlined in the link below.
+GitHub limits the size of files to 100 MB by default. To track files up to 2 GB, you can use Git Large File Storage, outlined in the link below.
 
 **Link:** https://docs.github.com/en/repositories/working-with-files/managing-large-files/about-git-large-file-storage
