@@ -61,9 +61,9 @@ GitHub Desktop is required to use Git for people not familiar with Git CLI. Inst
     1. Click "Settings"
     2. Click "Collaborators and teams"
     3. Click "Add people" or "Add teams" to add a person or team respectively, add the appropriate role:
-        a. Read - For viewing, can pull files locally (default)
-        b. Write - For contributing, can do everything "Read" can do and push changes
-        C. Admin - For full control, can do everything "Write" can do and destructive actions
+        1. Read - For viewing, can pull files locally (default)
+        1. Write - For contributing, can do everything "Read" can do and push changes
+        1. Admin - For full control, can do everything "Write" can do and destructive actions
     5. Each added account must accept an email invitation while logged in
 
 ![Image](screenshots/go_to_add_repository.png)
