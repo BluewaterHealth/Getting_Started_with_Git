@@ -6,15 +6,8 @@
 
 Follow the steps outlined in the following sections:
 
-- Installing Git
 - GitHub Accounts -> Personal Account
 - GitHub Desktop
-
-# Installing Git
-
-Download the latest version of **Git for Windows** from the link below and follow the installation instructions. When installing, default parameters can be used.
- 
-**Link:** https://git-scm.com/install/windows
 
 # GitHub Accounts
 
